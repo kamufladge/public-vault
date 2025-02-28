@@ -1,0 +1,17 @@
+[user]
+	name = kamufladge
+	email = social@kamufladge.at
+
+[core]
+	editor = nvim
+	pager = delta
+
+[init]
+	defaultBranch = main
+
+[interactive]
+	diffFilter = delta --color only
+
+[delta]
+	navigate = true
+	side-by-side = true
