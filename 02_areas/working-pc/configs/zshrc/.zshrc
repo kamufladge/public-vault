@@ -15,5 +15,6 @@ source "$HOME/.zshrc-ext.d/nvim.zsh"
 source "$HOME/.zshrc-ext.d/bat.zsh"
 source "$HOME/.zshrc-ext.d/git.zsh"
 source "$HOME/.zshrc-ext.d/vault.zsh"
+source "$HOME/.zshrc-ext.d/zephyr.zsh"
 
 

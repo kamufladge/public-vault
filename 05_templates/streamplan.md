@@ -2,18 +2,20 @@
 
 ---
 
-# Plan
 
-%% before starting define what you wanna do today %%
+# Stream
 
-# Follow up
+I want to create some kind of documentation of what I BUILT and LEARNED with my stream.
+Document as much as possible
 
-%% what should be done after stream or at a later stream %%
+## Plan
 
-## Another stream
+## Follow up
 
-## After stream
+### Another stream
 
-%% Write down what should happen after the stream by yourself, anything that came into mind %%
+### After stream
 
-# Notes
+Is there anything you need to take care of after the stream?
+
+## Notes

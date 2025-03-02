@@ -1,0 +1,9 @@
+name: develop
+root: .
+
+
+windows:
+  - git: echo "lg"
+  - editor: nvim
+  - cmd:
+  - knowledge: doc-vault

@@ -1,0 +1,26 @@
+
+# EditorConfig is awesome: https://EditorConfig.org
+
+# Top-most EditorConfig file
+root = true
+
+# C/C++ files
+[*.{c,cpp,h,hpp}]
+# Set default indent style to spaces, and the indent size to 4 spaces
+indent_style = space
+indent_size = 4
+
+# Set tab width for C/C++ files
+tab_width = 4
+
+# End lines with a single newline
+end_of_line = lf
+
+# Ensure files are saved with UTF-8 encoding
+charset = utf-8
+
+# Trim trailing whitespace
+trim_trailing_whitespace = true
+
+# Remove final newline if it exists
+insert_final_newline = true
