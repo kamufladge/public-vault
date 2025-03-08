@@ -47,6 +47,6 @@ pre_window: source $HOME/dev/venv/zephyrproject/bin/activate
 
 windows:
   - git: echo "lg"
-  - editor: nvim
+  - editor: nvim-zephyr
   - cmd:
   - knowledge: doc-vault

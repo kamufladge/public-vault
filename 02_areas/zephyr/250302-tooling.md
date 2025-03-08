@@ -1,11 +1,17 @@
 ---
 id: 250302-tooling
 aliases:
+  - zephyr-tooling
+tags:
+  - zephyr
   - tooling
-tags: []
 ---
 
 # Tooling
+
+## application development sample
+
+A good sample how to structure a application with zephyr can be found [here](https://github.com/zephyrproject-rtos/example-application)
 
 ## debugging
 
@@ -13,7 +19,7 @@ Set following settings in your project to generate correct debug information
 
 ```config
 CONFIG_DEBUG=y
-CONFIG_DEBUG_OPTIMIZATIONS=y
+CONFIG_NO_OPTIMIZATIONS=y
 CONFIG_DEBUG_THREAD_INFO=y
 ```
 
@@ -22,7 +28,7 @@ CONFIG_DEBUG_THREAD_INFO=y
 Configure application in debug mode:
 
 ```bash
-cmake -B build/debug -DCMAKE_BUILD_TYPE=Debug -DBOARD=native_sim -DCMAKE_EXPORT_COMPILE_COMMANDS=true -GNinja .
+cmake -B build/debug -DCMAKE_BUILD_TYPE=Debug -DBOARD=native_sim -DCMAKE_EXPORT_COMPILE_COMMANDS=true -GNinja -DEXTRA_CONF_FILE=debug.conf .
 ```
 
 Build application with cmake
