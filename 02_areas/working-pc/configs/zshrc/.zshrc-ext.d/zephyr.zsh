@@ -14,3 +14,5 @@ zephyr_cmake_prepare_native_debug() {
 zephyr_cmake_build_debug() {
   cmake --build build/debug $@
 }
+
+export PATH="$PATH:/home/$USER/dev/bin/stm32cube/bin"
