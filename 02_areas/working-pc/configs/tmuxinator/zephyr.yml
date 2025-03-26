@@ -1,7 +1,7 @@
 # /home/kamu/.config/tmuxinator/zephyr.yml
 
 name: zephyr
-root: ~/
+root: .
 
 # Optional tmux socket
 # socket_name: foo
@@ -49,4 +49,5 @@ windows:
   - git: echo "lg"
   - editor: nvim-zephyr
   - cmd:
-  - knowledge: doc-vault
+  - serial: echo "minicom -b [baudrate] -D [serialDevice]"
+  - doc: doc-vault

@@ -54,3 +54,4 @@ clangd check one file
 ## KConfig
 
 - search for config keys and get description [online](https://docs.zephyrproject.org/latest/kconfig.html)
+- to see or temporarily change KConfig see build folder ``zephyr/.config`` file

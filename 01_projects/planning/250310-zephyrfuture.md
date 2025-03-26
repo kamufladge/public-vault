@@ -15,7 +15,9 @@ tags:
 
 ## template
 
+- [ ] run renode simulation for testing automatically
 - [ ] integration test to check whether upgrade works
+  - [ ] run test in renode
 
 ## projects
 
